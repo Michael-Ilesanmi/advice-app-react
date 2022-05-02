@@ -5,6 +5,7 @@ import React, {useState, useEffect} from 'react'
 function App() {
   useEffect( ()=>{
     fetchData()
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
   let [advice, setAdvice] = useState('')
 
